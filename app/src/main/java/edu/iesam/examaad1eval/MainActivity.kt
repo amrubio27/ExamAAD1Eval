@@ -55,11 +55,6 @@ class MainActivity : AppCompatActivity() {
             val players = ex2DataRepository.getAllPlayers()
             ex2DataRepository.saveAllPlayers(players)
 
-            //Llamar a los métodos
-            /*val games= db.getAllGames()
-            db.saveAllGames(games)
-            val players= db.getAllPlayers()
-            db.saveAllPlayers(players)*/
         }
     }
 }

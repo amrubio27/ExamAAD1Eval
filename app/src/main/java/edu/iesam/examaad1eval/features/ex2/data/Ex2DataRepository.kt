@@ -18,7 +18,7 @@ class Ex2DataRepository(
     }
 
     suspend fun getAllPlayers(): List<Player> {
-        return local.getAllPlayers()
+        return remote.getPlayers()
     }
 
     suspend fun saveAllPlayers(players: List<Player>) {

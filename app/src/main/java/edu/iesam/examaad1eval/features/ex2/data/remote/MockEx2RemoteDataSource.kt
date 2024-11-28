@@ -17,7 +17,7 @@ class MockEx2RemoteDataSource {
         ).shuffled()
     }
 
-    private fun getPlayers(): List<Player>{
+    fun getPlayers(): List<Player>{
         return listOf(
             Player("1", "Juan"),
             Player(id = "2", name = "Pepe")
